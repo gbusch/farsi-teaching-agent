@@ -1,0 +1,7 @@
+.venv/
+.github/
+.vscode/
+app/.streamlit/secrets-gcp.toml
+app/.streamlit/secrets.toml
+.env
+__pycache__
