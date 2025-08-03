@@ -7,6 +7,6 @@ COPY ./requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ./app/ ./
-COPY ./app/.streamlit/secrets-gcp.toml ./.streamlit/secrets.toml
+RUN mkdir -p ./.streamlit
 
 ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
