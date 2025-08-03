@@ -40,7 +40,7 @@ def get_initial_message(student_name: str, sentence: str) -> str:
         Formatted initial message
     """
     return f"""Hallo {student_name}, ich bin Ava, deine Farsi-Lehrerin.
-Bitte übersetze den folgenden Satz ins Farsi:
+Bitte übersetze den folgenden Satz ins Persische:
 
 **{sentence}**
 
